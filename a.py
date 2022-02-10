@@ -8,7 +8,7 @@ def cl():
         f.write()
 
 a = tk.Text(root)
-b = tk.Text(root, text='Make', command=cl)
+b = tk.Button(root, text='Make', command=cl)
 a.pack()
 b.pack()
 
